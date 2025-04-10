@@ -1,0 +1,1341 @@
+body{
+    margin: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+.headerPg1{
+    /*Tecla Zero*/
+    background-image: url(../imagens/pag1.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg1 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 197px;
+    left: 275px
+}
+.headerPg1 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+.headerPg1 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 17px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg2{
+    /*Tecla Progr*/
+    background-image: url(../imagens/pag2.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg2 nav ul{
+    margin: 20px 70px 0 0; 
+    text-align: right;
+    position: absolute;
+    top: 231px;
+    left: 275px
+}
+.headerPg2 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+.headerPg2 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 17px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg3{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag3.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg3 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg3 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg3 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 10px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg4{
+     /*Tecla sel item*/
+    background-image: url(../imagens/pag4.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg4 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 194px;
+    left: 461px
+}
+.headerPg4 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg4 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg5{
+     /*Tecla 2*/
+    background-image: url(../imagens/pag5.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg5 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 262px;
+    left: 390px
+}
+.headerPg5 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg5 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 4px 1px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg6{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag6.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg6 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg6 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg6 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg7{
+    /*Tecla sel item*/
+   background-image: url(../imagens/pag7.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg7 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 194px;
+   left: 461px
+}
+.headerPg7 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg7 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 3px 9px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg8{
+    /*Tecla sel item*/
+   background-image: url(../imagens/pag8.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg8 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 194px;
+   left: 461px
+}
+.headerPg8 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg8 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 3px 9px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg9{
+    /*Tecla 9*/
+   background-image: url(../imagens/pag9.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg9 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 193px;
+   left: 427px
+}
+.headerPg9 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg9 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg10{
+    /*Tecla C*/
+   background-image: url(../imagens/pag10.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg10 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 297px;
+   left: 428px
+}
+.headerPg10 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg10 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg11{
+    /*Tecla 8*/
+   background-image: url(../imagens/pag11.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg11 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 193px;
+   left: 389px
+}
+.headerPg11 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg11 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg12{
+    /*Tecla 7*/
+   background-image: url(../imagens/pag12.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg12 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 193px;
+   left: 353px
+}
+.headerPg12 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg12 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg13{
+    /*Tecla .*/
+   background-image: url(../imagens/pag13.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg13 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 297px;
+   left: 390px
+}
+.headerPg13 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg13 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg14{
+    /*Tecla 3*/
+   background-image: url(../imagens/pag14.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg14 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 262px;
+   left: 428px
+}
+.headerPg14 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg14 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg15{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag15.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg15 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg15 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg15 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg16{
+    /*Tecla 1*/
+   background-image: url(../imagens/pag16.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg16 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 262px;
+   left: 352px
+}
+.headerPg16 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg16 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg17{
+    /*Tecla .*/
+   background-image: url(../imagens/pag17.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg17 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 297px;
+   left: 390px
+}
+.headerPg17 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg17 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg18{
+    /*Tecla 2*/
+   background-image: url(../imagens/pag18.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg18 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 262px;
+   left: 390px
+}
+.headerPg18 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg18 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg19{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag19.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg19 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg19 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg19 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg20{
+    /*Tecla 1*/
+   background-image: url(../imagens/pag20.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg20 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 262px;
+   left: 352px
+}
+.headerPg20 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg20 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg21{
+    /*Tecla .*/
+   background-image: url(../imagens/pag21.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg21 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 297px;
+   left: 390px
+}
+.headerPg21 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg21 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg22{
+    /*Tecla 2*/
+   background-image: url(../imagens/pag22.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg22 nav ul{
+   margin: 20px 70px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 262px;
+   left: 390px
+}
+.headerPg22 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg22 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 4px 1px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg23{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag23.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg23 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg23 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg23 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg24{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag24.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg24 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg24 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg24 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg25{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag25.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg25 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg25 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg25 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg26{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag26.png);
+    height: 400px;
+    width:600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg26 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg26 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg26 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg27{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag27.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg27 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg27 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg27 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg28{
+    /*Tecla seta baixo*/
+    background-image: url(../imagens/pag28.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg28 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg28 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg28 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg29{
+    /*Tecla sel item*/
+   background-image: url(../imagens/pag29.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg29 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 194px;
+   left: 461px
+}
+.headerPg29 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg29 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 3px 9px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg30{
+    /*Tecla entrar*/
+    background-image: url(../imagens/pag30.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg30 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 299px;
+    left: 461px
+}
+.headerPg30 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.headerPg30 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 3px 9px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg31{
+    /*Tecla Partida*/
+    background-image: url(../imagens/pag31.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg31 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 196px;
+    left: 172px
+}
+.headerPg31 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+.headerPg31 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 24px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg32{
+    /*Tecla Avançar*/
+    background-image: url(../imagens/pag32.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg32 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 480px;
+    left: 32px
+}
+.headerPg32 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+/* .headerPg32 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 18px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+} */
+
+
+.headerPg33{
+    /*Tecla Parada*/
+    background-image: url(../imagens/pag33.png);
+    height: 400px;
+    width:600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg33 nav ul{
+    margin: 20px 70px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 225px;
+    left: 172px
+}
+.headerPg33 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+.headerPg33 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 24px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg34{
+    /*Tecla Sair*/
+   background-image: url(../imagens/pag34.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg34 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 230px;
+   left: 462px
+}
+.headerPg34 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg34 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 3px 9px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg35{
+    /*Tecla Sair*/
+   background-image: url(../imagens/pag35.png);
+   height: 400px;
+   width: 600px ;
+   background-size: cover;
+   background-position: center;
+}
+.headerPg35 nav ul{
+   margin: 20px 80px 0 0;
+   text-align: right;
+   position: absolute;
+   top: 230px;
+   left: 462px
+}
+.headerPg35 nav li{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 16px;
+}
+.headerPg35 nav a{
+   background-color: rgba(0, 0, 255, .3);
+   padding: 3px 9px;
+   display: block;
+   color: rgba(0, 0, 0, .0);
+   text-decoration: none;
+}
+
+.headerPg36{
+    /*Tecla Partida*/
+    background-image: url(../imagens/pag36.png);
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg36 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 196px;
+    left: 172px
+}
+.headerPg36 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px; 
+}
+.headerPg36 nav a{
+    background-color: rgba(0, 0, 255, .3);
+    padding: 5px 24px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+}
+
+.headerPg37{
+    /*Tela Operação */
+    background-image: url(../imagens/pag37.png);
+    margin-bottom: 10px;
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg37 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 388px;
+    left: -36px
+}
+.headerPg37 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4px; 
+}
+.l1{
+    background-color: rgba(0, 255, 0, .0);
+    padding: 23px 75px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 43px;
+    z-index: 1;
+}
+.l2{
+    background-color: rgba(0, 255, 0, .0);
+    padding: 23px 75px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 255px;
+    z-index: 1;
+}
+.l3{
+    background-color: rgba(0, 255, 0, .0);
+    padding: 23px 75px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 466px;
+    z-index: 1;
+}
+
+.headerPg38{
+    /*Tela cartucho sem bula*/
+    background-image: url(../imagens/pag38.png);
+    margin-bottom: 10px;
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg38 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 388px;
+    left: -36px
+}
+.headerPg38 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4px; 
+}
+
+
+.headerPg39{
+    /*Tela Cartucho com duas bulas*/
+    background-image: url(../imagens/pag39.png);
+    margin-bottom: 10px;
+    height: 400px;
+    width: 600px ;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg39 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 388px;
+    left: -36px
+}
+.headerPg39 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4px; 
+}
+
+
+.headerPg40{
+    /*Tela Cartucho normal*/
+    background-image: url(../imagens/pag40.png);
+    margin-bottom: 10px;
+    height: 400px;
+    width:600px;
+    background-size: cover;
+    background-position: center;
+}
+.headerPg40 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+    position: absolute;
+    top: 388px;
+    left: -36px
+}
+.headerPg40 nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4px; 
+}
+/* .headerPg40 nav a{
+    background-color: rgba(0, 255, 0, .5);
+    padding: 23px 75px;
+    margin-top: 9px;
+    margin-right: 30px;
+    display: block;
+    color: rgba(0, 0, 0, .0);
+    text-decoration: none;
+} */
+
+
+#cartucho1{
+    /* background-color: #a80e0e; */
+    max-width:20px;
+    max-height:50px;
+    display: inline;
+    
+    /* padding-inline: 60; */
+     
+}
+#cartucho2{
+    max-width:20px;
+    max-height:50px;
+    display:inline;
+    position: absolute;
+    left: 220px;
+
+}
+#cartucho3{
+    max-width:20px;
+    max-height:50px;
+    display: inline;
+    position: absolute;
+    left: 430px;
+    
+}
+
+.legenda{
+    
+    color: ghostwhite;
+}
+
+#c1 {
+    
+    display:inline;
+    margin-left: 30px;
+    position: absolute;
+    top: 470px;
+    left: 1px;
+}
+#c2 {
+    
+    display: inline;
+    margin-left: 30px;
+    position: absolute;
+    top: 470px;
+    left: 190px;
+
+}
+#c3 {
+   
+    display: inline;
+    margin-left: 30px;
+    position: absolute;
+    top: 470px;
+    left: 420px;
+}
+
+.container{
+    color: darkorange; 
+    font-size: 20px;
+    box-shadow: #4b1313;
+    
+}
+
+
+
+#cursor{
+    /* transform: rotate(90deg);
+    transform-origin: left top 0; */
+    display:inline-block;
+    position:absolute;
+    top: 41px;
+    left: 123px
+}
+#cursor2{
+    display:inline-block;
+    position:absolute;
+    top: 86px;
+    left: 75px
+}
+#cursor3{
+    display:inline-block;
+    position:absolute;
+    top: 124px;
+    left: 75px
+}
+#cursor4{
+    display:inline-block;
+    position:absolute;
+    top: 124px;
+    left: 522px
+}
+#cursor5{
+    display:inline-block;
+    position:absolute;
+    top: 70px;
+    left: 64px
+}
+#cursor6{
+    display:inline-block;
+    position:absolute;
+    top: 43px;
+    left: 541px
+}
+#cursor7{
+    display:inline-block;
+    position:absolute;
+    top: 72px;
+    left: 508px
+}
+#cursor8{
+    display:inline-block;
+    position:absolute;
+    top: 99px;
+    left: 508px
+}
+#cursor9{
+    display:inline-block;
+    position:absolute;
+    top: 125px;
+    left: 508px
+}
+#cursor10{
+    display:inline-block;
+    position:absolute;
+    top: 127px;
+    left: 60px
+}
+#cursor11{
+    display:inline-block;
+    position:absolute;
+    top: 125px;
+    left: 512px
+}
+#cursor12{
+    display:inline-block;
+    position:absolute;
+    top: 100px;
+    left: 59px
+}
+.inicio nav ul{
+    /* margin: 5px 5px 0 0; */
+    text-align: center;
+    
+}
+ .inicio{ 
+    position:absolute;
+    top: 490px;
+    left: 565px;
+    /* display:inline-block; */
+} 
+.inicio nav li{
+    display: block;
+    list-style-type: none;
+    
+    /* margin-left: 10px; */
+}
+.inicio nav a{
+    background-color: rgba(103, 103, 124, 0.8);
+    color:#ffffff;
+    text-shadow: 3px 3px 4px #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    font-size: 20px;
+    letter-spacing: 2px; 
+    border-radius: 10px;
+    border: 4px solid rgb(214, 206, 206);
+    width: fit-content;
+
+}
+.inicio nav a:hover{
+    color:cadetblue;
+    background-color: rgb(41, 39, 39);
+}
+
+
+.comando{
+    color:rgb(89, 159, 199);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rodape{
+    
+    color: ghostwhite;
+    font-weight: bold;
+    background-color: #6b6c68;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 2px 2px 2px;
+}
